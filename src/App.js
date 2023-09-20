@@ -7,19 +7,20 @@ import ImageSliding from './components/ImageSliding';
 
 function App() {
 
-const data=[
-  'I LOVE NASA',
-  'LOOKS SO AWESOME GALAXY',
-  'WOUNDERFULL LOOKS',
-  'ITS SO HOT SPACE',
-  'BEAUTIFUL MILKYWAY'
+  const data = [
+    'I LOVE NASA',
+    'LOOKS SO AWESOME GALAXY',
+    'WOUNDERFULL LOOKS',
+    'ITS SO HOT SPACE',
+    'BEAUTIFUL MILKY WAY'
 
-]
+  ]
+
 
   return (
     <>
-      <HomePage/>
-      <ImageSliding data={data}/>
+      <HomePage />
+      <ImageSliding data={data} />
     </>
   );
 }

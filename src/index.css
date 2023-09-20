@@ -1,5 +1,4 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,12 +6,10 @@
   overflow-x: hidden;
 }
 
-
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -20,12 +17,12 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 
-div{
+div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,42 +34,39 @@ div{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
-.bg-1{
-  background-image: url('./imgs/pic1.jpg');
+.bg-1 {
+  background-image: url("./imgs/pic1.jpg");
   width: 100%;
   height: 100vh;
- 
 }
 
-.bg-2{
-  background-image: url('./imgs/pic2.jpg');
+.bg-2 {
+  background-image: url("./imgs/pic2.jpg");
   width: 100%;
   height: 600px;
 }
 
-.bg-3{
-  background-image: url('./imgs/pic3.jpg');
+.bg-3 {
+  background-image: url("./imgs/pic3.jpg");
   width: 100%;
   height: 100vh;
 }
 
-.bg-4{
-  background-image: url('./imgs/pic4.jpg');
+.bg-4 {
+  background-image: url("./imgs/pic4.jpg");
   width: 100%;
   height: 600px;
 }
 
-.bg-5{
-  background-image: url('./imgs/pic5.jpg');
+.bg-5 {
+  background-image: url("./imgs/pic5.jpg");
   width: 100%;
   height: 100vh;
 }
 
-
-.parallax{
+.parallax {
   position: relative;
   display: flex;
   justify-content: center;
@@ -81,122 +75,93 @@ div{
   color: #333;
   font-size: 5rem;
   box-sizing: border-box;
-  
 }
 
-
-
-img{
+img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   pointer-events: none;
-  
 }
-
-
-.headers{
-  display: flex;
-  justify-content: left;
-  justify-content:start;
-  
-}
-.headers li{
-  margin: 5px;
-}
-
-
-
-
 
 
 /* Responsive styles for mobile devices */
 @media screen and (max-width: 768px) {
- 
-  .parallax{
-    font-size:1.5rem ;
+  .parallax {
+    font-size: 1.5rem;
     height: 60vh;
     overflow-x: hidden;
   }
-img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width:  100%;
-  height: 40vh;
-  pointer-events: none;
-  overflow-x: hidden;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 40vh;
+    pointer-events: none;
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .bg-1 {
+    max-width: 100%;
+    height: 50vh;
+    overflow-x: hidden;
+  }
+
+  .bg-2 {
+    max-width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+  }
+
+  .bg-3 {
+    max-width: 100%;
+    height: 50vh;
+    overflow-x: hidden;
+  }
+
+  .bg-4 {
+    max-width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+  }
+
+  .bg-5 {
+    max-width: 100%;
+    height: 50vh;
+    overflow-x: hidden;
+  }
+
+  .main {
+    max-width: 400px;
+    height: 250px;
+    overflow-y: hidden;
+  }
 }
-
-
-h1{
-  font-size: 18px;
-}
-
-
-.bg-1{
-  max-width:  100%;
-  height: 50vh;
-  overflow-x: hidden;
-}
-
-.bg-2{
-  max-width:  100%;
-  height: 400px;
-  overflow-x: hidden;
-}
-
-.bg-3{
-  max-width:  100%;
-  height: 50vh;
-  overflow-x: hidden;
-}
-
-.bg-4{
-  max-width:  100%;
-  height: 400px;
-  overflow-x: hidden;
-}
-
-.bg-5{
-  max-width:  100%;
-  height: 50vh;
-  overflow-x: hidden;
-}
-
-.main{
-  max-width: 400px;
-  height: 250px;
-  overflow-y: hidden;
-}
-
-}
-
-
-
 
 /* Responsive styles for tablet devices */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
-  #text{
-    font-size:3rem ;
+  #text {
+    font-size: 3rem;
   }
 
-  h1{
+  h1 {
     font-size: 30px;
   }
-  .main{
+
+  .parallax {
+    background-attachment: scroll;
+  }
+
+  .main {
     max-width: 800px;
     height: 620px;
     overflow-y: hidden;
   }
-
 }
-
-
-
-
-
-

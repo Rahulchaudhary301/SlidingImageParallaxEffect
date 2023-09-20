@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15f21408.css",
+    "main.js": "/static/js/main.26097f38.js",
+    "static/js/787.a69c4d69.chunk.js": "/static/js/787.a69c4d69.chunk.js",
+    "static/media/pic1.jpg": "/static/media/pic1.4f9fd7e66b55d16f0778.jpg",
+    "static/media/pic5.jpg": "/static/media/pic5.14986868d3415e9e3327.jpg",
+    "static/media/pic2.jpg": "/static/media/pic2.c28b6a0469e081259de8.jpg",
+    "static/media/pic3.jpg": "/static/media/pic3.a169fbb9490714aebef2.jpg",
+    "static/media/pic4.jpg": "/static/media/pic4.5b88c83f71a0af466e99.jpg",
+    "static/media/leaf.png": "/static/media/leaf.e464cfd33f37d8e3910c.png",
+    "static/media/plant.png": "/static/media/plant.68b147d871c63c5c87d8.png",
+    "static/media/hill4.png": "/static/media/hill4.a11c976073664b2f94a2.png",
+    "static/media/hill5.png": "/static/media/hill5.0ae62f6f9291948a04b0.png",
+    "static/media/hill2.png": "/static/media/hill2.739d0c6a1d9f28e64b34.png",
+    "static/media/hill3.png": "/static/media/hill3.06eee5b47a9c785a1c9d.png",
+    "static/media/tree.png": "/static/media/tree.09e1743b0fa13d93c7d1.png",
+    "static/media/hill1.png": "/static/media/hill1.cf4b61ee12b18cff5f0b.png",
+    "index.html": "/index.html",
+    "main.15f21408.css.map": "/static/css/main.15f21408.css.map",
+    "main.26097f38.js.map": "/static/js/main.26097f38.js.map",
+    "787.a69c4d69.chunk.js.map": "/static/js/787.a69c4d69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15f21408.css",
+    "static/js/main.26097f38.js"
+  ]
+}
