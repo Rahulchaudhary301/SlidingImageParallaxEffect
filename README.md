@@ -1,4 +1,8 @@
-# Instruction to follow this step to strat the project on local host.
+
+
+# Deployed link :- https://rahulparallaxeffect.netlify.app/
+
+# follow these step to strat the project on local host.
 
  # stepe 
 
@@ -8,5 +12,7 @@
  # 4 npm start :- using these command to start the project on local host 
 
 
- # Deployed link :- https://rahulparallaxeffect.netlify.app/
+ 
+
+
 
